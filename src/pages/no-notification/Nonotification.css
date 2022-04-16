@@ -1,0 +1,33 @@
+.nonotification {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 400px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+#none {
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 35px;
+  padding-top: 50px;
+  color: rgb(9, 26, 124);
+}
+.nonotification p {
+  color: rgb(9, 26, 124);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.nonotification img {
+  height: 300px;
+  width: 300px;
+  margin: 70px 0 40px 0;
+  border-radius: 50%;
+}
+#para {
+  font-size: 17px;
+}

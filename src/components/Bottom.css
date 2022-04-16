@@ -1,0 +1,41 @@
+footer {
+  box-sizing: border-box;
+  margin: 15px auto 0 auto;
+  position: fixed;
+  padding: 10px 0px;
+  font-size: 13px;
+  bottom: 0;
+  left: 0%;
+  max-width: 400px;
+  width: 100%;
+  border-top: 1px solid grey;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+footer a {
+  text-decoration: none;
+}
+#footer-icons1 {
+  margin: 0 25px 0 20px;
+}
+#footer-icons2 {
+  margin: 0 25px;
+}
+#footer-icons3 {
+  margin: 0 25px;
+}
+#footer-icons4 {
+  margin: 0 20px 0 25px;
+}
+.teshome {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  color: gray;
+}
+@media only screen and (min-width: 400px) {
+  footer {
+    position: relative;
+  }
+}

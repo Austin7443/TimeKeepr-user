@@ -1,0 +1,32 @@
+.success {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 400px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.success img {
+  height: 270px;
+  width: 270px;
+  padding: 0px;
+  margin: 150px 0 0 0;
+  border-radius: 100%;
+}
+.success h1 {
+  margin-bottom: 0px;
+  font-size: 55px;
+  font-weight: bolder;
+  color: rgb(9, 26, 124);
+}
+.success p {
+  color: gray;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}

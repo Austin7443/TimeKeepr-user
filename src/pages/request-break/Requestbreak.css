@@ -1,0 +1,93 @@
+.Requestbreak {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 400px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.Requestbreak h1 {
+  background-color: rgb(9, 26, 124);
+  color: whitesmoke;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin: 10px 0 10px 0;
+}
+label {
+  padding: 12px 0px 0px 10px;
+  display: inline-block;
+  color: rgb(37, 102, 177);
+  font-size: 14px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  padding-left: 5px;
+}
+.col-26 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  padding-right: 15px;
+}
+
+textarea {
+  display: flex;
+  margin: 10px 0 50px 20px;
+  height: 100px;
+  min-width: 300px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.textarea label {
+  margin: 10px 300px 10px 10px;
+  font-size: 18px;
+  font-weight: 550;
+}
+.but {
+  margin-top: 60px;
+}
+#but1 {
+  padding: 7px 10px 7px 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  background-color: rgb(9, 26, 124);
+  color: whitesmoke;
+  font-size: 14px;
+  box-shadow: 1px 2px 5px 1px gray;
+}
+#but2 {
+  padding: 7px 20px 7px 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  background-color: whitesmoke;
+  color: gray;
+  font-size: 14px;
+  box-shadow: 1px 2px 5px 1px gray;
+}
+#but3 {
+  padding: 7px 25px;
+  border-radius: 30px;
+  border: 1px solid grey;
+  margin-top: 50px;
+  box-shadow: 0px 3px 12px 0px rgb(197, 197, 197);
+}

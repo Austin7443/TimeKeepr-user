@@ -1,0 +1,21 @@
+.clockin {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 400px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.clockin p {
+  font-size: 33px;
+  line-height: 35px;
+  padding-top: 50px;
+}
+.clockin img {
+  border-radius: 100%;
+  margin: 40px 0;
+}

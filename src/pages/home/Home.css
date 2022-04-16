@@ -1,0 +1,49 @@
+.home {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 400px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+.home h1 {
+  font-size: 35px;
+  color: rgb(9, 26, 124);
+  margin: 90px 0 65px 0;
+}
+#am {
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.home p {
+  font-size: large;
+}
+#circle {
+  background-color: rgb(9, 26, 124);
+  height: 170px;
+  width: 170px;
+  margin: 70px auto 20px auto;
+  border-radius: 50%;
+  box-shadow: 5px 10px 27px 7px rgb(95, 145, 202);
+}
+#in {
+  color: rgb(9, 26, 124);
+  font-size: 28px;
+  font-weight: bolder;
+}
+#notclose {
+  box-sizing: border-box;
+  display: flex;
+  margin: 30px auto 0 auto;
+  background-color: rgb(193, 232, 248);
+  color: rgb(9, 26, 124);
+  font-weight: bold;
+  padding: 5px 50px;
+  width: 280px;
+}
